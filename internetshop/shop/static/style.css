@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+    *{
+    font-family:Inter
+    }
+
+    h1 {
+    color:white;
+    padding:2px;
+    margin:2px
+     }
+     img {
+     max-width: 300px;
+     max-height: 300px;
+     }
+    .product {
+    display: flex;
+    margin-top:10px;
+    border-radius:10px;
+    padding:10px;
+    background-color:white;
+    width:60%;
+    }
+
+    .heading{
+     display:flex;
+     align-items:center;
+     justify-content:center;
+    }
+
+    a{
+    margin-left:10px;
+    text-decoration: none;
+    color:black;
+    }
+
+    a:hover{
+    color:#00CED1
+    }
+
+    h2 {
+    color:#00CED1
+    }
+
+    .logo {
+    background-color:#00CED1;
+    border-radius:10px;
+    }
+
+    .navigation {
+    font-size:22px
+    }
+
+    .productList {
+    background-color: #f6f6f6;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    }
+
+    button {
+    height:50px;
+    width:100%;
+    background-color:white;
+    border:2px solid #a6a6a6;
+    padding:0px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:17px;
+    }
+
+    .priceSection {
+    width:500px;
+    }
+
+    button:hover {
+    color:white;
+    background-color:#00CED1;
+
+    }
