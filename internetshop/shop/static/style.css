@@ -27,13 +27,14 @@
      justify-content:center;
     }
 
-    a{
-    margin-left:10px;
+    nav.link{
+    margin-right:50px;
     text-decoration: none;
     color:black;
+    font-size:22px;
     }
 
-    a:hover{
+    nav.link:hover{
     color:#00CED1
     }
 
@@ -102,3 +103,8 @@
 
     }
 
+
+    a{
+    text-decoration:none
+
+    }
